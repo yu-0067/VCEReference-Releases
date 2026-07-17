@@ -3,7 +3,7 @@ name: Publish Release
 on:
   push:
     branches:
-      - main   # Change if your default branch is different
+      - master
   workflow_dispatch:
 
 permissions:
